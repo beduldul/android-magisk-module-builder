@@ -39,11 +39,11 @@ def validate_module(module_path):
         if prop not in props:
             print(f"[!] Error: Missing required property '{prop}' in module.prop")
             return False, {}
-        print(f"  [✓] Property '{prop}': {props[prop]}")
+        print(f"  [OK] Property '{prop}': {props[prop]}")
 
     sepolicy_path = os.path.join(module_path, "sepolicy.rule")
     if os.path.exists(sepolicy_path):
-        print(f"  [✓] Found sepolicy.rule")
+        print(f"  [OK] Found sepolicy.rule")
 
     return True, props
 

@@ -4,7 +4,7 @@ A Python command-line utility for Android module developers designed to validate
 
 ---
 
-## 🛠 Features in v1.1.0
+## Features in v1.1.0
 
 - **Metadata Validation**: Checks required fields in `module.prop` (`id`, `name`, `version`, `versionCode`, `author`).
 - **Integrity Checksums**: Automatically calculates and outputs SHA-256 cryptographic checksums for generated zip packages.
@@ -13,7 +13,7 @@ A Python command-line utility for Android module developers designed to validate
 
 ---
 
-## 💻 Usage
+## Usage
 
 ```bash
 python3 builder.py path/to/module_directory -o output_module.zip --json
@@ -21,5 +21,5 @@ python3 builder.py path/to/module_directory -o output_module.zip --json
 
 ---
 
-## 📄 License
+## License
 MIT License
